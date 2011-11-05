@@ -1,0 +1,135 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: #000;
+    font: 12px Arial;
+    color: #000;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+a:focus,a:active {
+    outline: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#page {
+    width: 960px;
+    margin: auto;
+    background: #fff;
+    min-height: 100%;
+    height: auto;
+}
+
+#header {
+    padding: 8px 16px;
+    border-bottom: 16px solid #555;
+    background: url(/image/mixtape.gif) 82% -100px no-repeat;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 54px;
+    color: #333;
+    line-height: 1em;
+    overflow: hidden;
+    height: 1em;
+    text-decoration: none;
+}
+
+#headerlinks {
+    overflow: auto;
+    width: 100%;
+}
+
+#headerlinks ul {
+    list-style: none;
+    margin: 0 0 0 51px;
+    padding: 0;
+}
+
+#headerlinks li {
+    float: left;
+    background: #333;
+    color: #eee;
+    border-right: 2px solid #fff;
+    outline: 2px solid #555;
+    padding: .25em .5em;
+    font-size: 1.4em;
+    margin-right: .5em;
+}
+
+#headerlinks li:last-child {
+    margin-right: 2px;
+}
+
+#headerlinks li:hover {
+    opacity: 0.5;
+}
+
+#headerlinks li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#content {
+    padding: 16px;
+    overflow: auto;
+    width: auto;
+}
+
+.listmix {
+    background: #555;
+    color: #fff;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 1.4em;
+    overflow: hidden;
+    margin-bottom: 0.4em;
+    display: block;
+    text-decoration: none;
+}
+
+.listmix:hover {
+    background: #3FA59B !important;
+}
+
+.listmix a {
+    color: inherit;
+}
+
+.playing {
+    background: #B256A9;
+}
+
+#mixFavorite {
+    font-weight: bold; 
+    text-align: center; 
+    font-size: 14px;    
+}
+
+#mixFavorite a {
+    text-decoration: none;   
+}
+
+.rate {
+    padding: 6px 41px;
+}
+
+.rate .ui-icon {
+    float: left;
+    margin: 0 4px;
+}

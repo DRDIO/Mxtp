@@ -1,0 +1,25 @@
+.listcontainer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.listcontainer li {
+    margin: 4px 0 0 0;  
+    padding: 8px;  
+}
+
+.listcontainer li div {
+    float: right;
+    margin: 0 2px;
+}
+
+.listcontainer input {
+    font: inherit;
+    border: none;
+    margin: 0;
+    width: 50%;  
+    outline: none;  
+    opacity: 50%;
+    padding: 4px;   
+}
